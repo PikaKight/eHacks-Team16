@@ -1,0 +1,35 @@
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.button {
+    border: none;
+    cursor: pointer; 
+    height: 50px;
+    text-align:center;
+  }
+
+.add {
+    height: 18px;
+    margin-right: 20px;
+    text-align:right;
+  }
+
+.vector {
+    height: 18px;
+    text-align:right;
+  }
+
+.taskbar {
+    text-align:center;
+  }
+
+.back {
+  height: 13px;
+  margin-left: 8px;
+}
+
+.newReminder {
+  height: 13px;
+  text-align:right;
+  margin-right: 8px;
+}
