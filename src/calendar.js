@@ -1,6 +1,8 @@
-var CLIENT_ID = '987812981681-79vatf5sdq307g4kahg0kqs3rins2ee2.apps.googleusercontent.com';
-var API_KEY = 'AIzaSyCYBI4gs3xu4nFtWDIqsEDX4Qwc4aN0ecY'
+var private = require('../private.json');
+const fs = require('fs');
 
-var gcal = require('google-calendar');
+const {google} = require('googleapis');
 
-var google_calendar =
+const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
+
+const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, redirect_uris[0]);
