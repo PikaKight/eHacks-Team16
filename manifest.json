@@ -1,5 +1,5 @@
 {
-    "name": "Calendar",
+    "name": "InstaCal",
     "description": "This is an easy way to get your day to day events",
     "version": "1.0",
     "manifest_version": 3,
@@ -13,8 +13,8 @@
         "service_worker": "src/background.js"
     },
     "action": {
-        "default_icon": "picture/pngtree-flat-calendar-image_1287503.jpg",
-        "default_popup": "test/index.html"
+        "default_icon": "picture/InstaCal.png",
+        "default_popup": "Popup/index.html"
     },
-    "permissions": ["storage", "notifications"]
+    "permissions": ["storage", "notifications", "activeTab"]
 }

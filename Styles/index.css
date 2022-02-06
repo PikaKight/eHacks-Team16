@@ -1,6 +1,29 @@
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
+.taskbar{
+  text-align:center;
+  display: inline-grid;
+  grid-template-columns: [first] auto [line2] auto [line3] auto;
+  grid-template-rows: [row1-start] auto;
+}
+
+#home{
+  grid-column-start: first;
+  grid-column-end: 2;
+  grid-row: row1-start;
+}
+
+#cal{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: row1-start;
+}
+
+#prof{
+  grid-column: 3;
+  grid-row: row1-start;
+}
 .button {
     border: none;
     cursor: pointer; 
@@ -19,10 +42,6 @@ body {font-family: Verdana, sans-serif;}
     text-align:right;
   }
 
-.taskbar {
-    text-align:center;
-  }
-
 .back {
   height: 13px;
   margin-left: 8px;
@@ -33,3 +52,4 @@ body {font-family: Verdana, sans-serif;}
   text-align:right;
   margin-right: 8px;
 }
+
