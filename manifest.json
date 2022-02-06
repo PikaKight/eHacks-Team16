@@ -13,7 +13,8 @@
         "service_worker": "src/background.js"
     },
     "action": {
-        "default_icon": "picture/pngtree-flat-calendar-image_1287503.jpg"
+        "default_icon": "picture/pngtree-flat-calendar-image_1287503.jpg",
+        "default_popup": "test/index.html"
     },
     "permissions": ["storage", "notifications"]
 }
